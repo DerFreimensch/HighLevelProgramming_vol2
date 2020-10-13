@@ -3,8 +3,8 @@
 
 int main(void) {
 	int mas[N];
-	int* pt = mas;
-	int ch1, ch2;
+	float* pt = mas;
+	float ch1, ch2;
 	int Flag = 0;
 	for (int i = 0; i < N; i++) {
 		scanf_s("%d", &mas[i]);
@@ -19,7 +19,7 @@ int main(void) {
 		}
 		
 	}
-	printf("%d ", ch1);
+	printf("%3.3f ", ch1);
 	
 	return 0;
 }
